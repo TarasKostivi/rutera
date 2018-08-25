@@ -11,6 +11,10 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- fontaweoasome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+
     <!-- Gogle-fonts -->
     <link href="https://fonts.googleapis.com/css?family=Exo+2:500,700,800,800i&amp;subset=cyrillic" rel="stylesheet">
 
@@ -31,19 +35,52 @@
 <body>
 
     <!-- HEADER START -->
-    <header class="header d-flex align-items-center">
-        <div class="header-content">
+    <header class="header">
+        <div class="header-content d-flex align-items-center flex-wrap">
+            <div class="rectangle bg-blue"></div>
             <div class="logo-header-img">
-                <img src="img/logo-header.png" alt="">
+                <a href="#"><img src="img/logo-header.png" alt=""></a>
             </div>
             <!-- /.log-header-img -->
+            <button class="btn btn-info-progect d-flex align-items-center text-white"><img src="img/icon-setings.png" class="icon-info"
+                    alt="">ИНФОРМАЦИЯ ДЛЯ ПРОЕКТАНТОВ</button>
+            <!-- /.btn-info-progect -->
+            <form class="form">
+                <div class="form-header-search-input-text">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <input type="text" name="name-text" placeholder="ВВЕДИТЕ НАЗВАНИЕ ПО МАРКИРОВКЕ">
+                </div>
+                <!-- /.form-name-marking -->
+            </form>
+            <!-- /.form-name-marking -->
+            <div class="header-contact-info d-flex align-items-center">
+                <div class="header-contact-phone d-flex align-items-center">
+                    <a href=""><i class="fas fa-mobile-alt"></i></a>
+                    <span>+7 499 3980686</span>
+                </div>
+                <!-- /.header-contact-phone -->
+                <button class="btn btn-call">ЗАКАЗАТЬ ЗВОНОК</button>
+                <!-- /.btn btn-call -->
+                <div class="menu-btn">
+                    <div class="btn-linear" style="width:21px"><span></span></div>
+                    <div class="btn-linear" style="width:14px"><span></span></div>
+                    <div class="btn-linear" style="width:21px"><span></span></div>
+                </div>
+                <div class="menu bg-grey text-white"><span><b>МЕНЮ</b></span></div>
+            </div>
+            <!-- /.header-contact-info -->
         </div>
         <!-- /.header-content -->
     </header>
     <!-- HEADER END -->
 
     <!-- MAIN START -->
-
+    <main class="main">
+        <div class="inner-average">
+            
+        </div>
+        <!-- /.inner-average -->
+    </main>
     <!-- MAIN END -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
