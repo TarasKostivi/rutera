@@ -364,6 +364,7 @@ img {
         left: 0%;
     }
 }
+.inner-md-content .card,
 .inner-content .card {
     position: absolute;
     right: 14.4%;
@@ -945,6 +946,7 @@ img {
 /* ===== brends ====== */
 .section-brends {
     clear: both;
+    margin-bottom: 40px;
 }
 .brends {
     margin-top: 50px;
@@ -967,6 +969,38 @@ img {
     height: 38.1vh;
     background: url(../img/footer-inner.jpg) no-repeat center / cover;
     min-height: 370px;
+}
+.inner-md-content .card .adres-catalog-text {
+    padding-top: 45px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.author-title {
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+.author-img {
+    margin-left: 62px
+}
+.autho-oll-info .title-section{
+    padding-left: 45px;
+}
+.author-info {
+    position: absolute;
+    left: 18%;
+    padding-top: 65px;
+    transform: translateX(0%);
+}
+.title-section {
+    font-size: 16px;
+}
+.title-section .user-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+.title-section .number-text {
+    margin-top: 18px;
 }
 /* ===== inner-md end====== */
 
