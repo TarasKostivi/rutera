@@ -1002,6 +1002,13 @@ img {
 .title-section .number-text {
     margin-top: 18px;
 }
+.title-section .email-text {
+    margin-top: 8px;
+}
+.autho-oll-info .btn {
+    padding: 20px 65px 15px 60px;
+    margin-left: 80px;
+}
 /* ===== inner-md end====== */
 
 /* DEFAULT COMPONENT END */
